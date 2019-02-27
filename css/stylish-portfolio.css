@@ -6,7 +6,8 @@
 
 body, html {
     width: 100%;
-    height: 100%
+    height: 100%;
+    padding: 10px;
 }
 
 body {
@@ -101,8 +102,8 @@ h1, h2, h3, h4, h5, h6 {
     height: auto;
     padding-top: 6rem;
     padding-bottom: 6rem;
-    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, .5))), url(../img/img8.jpg);
-    background: linear-gradient(200deg, hsla(125, 8%, 73%, 0.808) 0, hsla(215, 4%, 25%, 0.363) 100%), url(../img/img8.jpg);
+    /* background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.5)), to(rgba(255, 255, 255, .5))), url(../img/img8.jpg); */
+    background: linear-gradient(200deg, hsla(212, 60%, 83%, 0.808) 0, hsla(329, 81%, 44%, 0.363) 100%), url(../img/img8.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -262,8 +263,9 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     position: relative;
     overflow: hidden;
+    margin: 20px;
     max-width: 530px;
-    margin: auto auto 1rem
+    margin: auto auto 1rem 1rem;
 }
 
 .portfolio-item .caption {
@@ -281,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio-item .caption .caption-content {
     color: #fff;
-    margin: auto 2rem 2rem
+    /* margin: auto 2rem 2rem; */
 }
 
 .portfolio-item .caption .caption-content h2 {
@@ -297,7 +299,6 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width:992px) {
     .portfolio-item {
         max-width: none;
-        margin: 0
     }
     .portfolio-item .caption {
         -webkit-transition: -webkit-clip-path .25s ease-in-out, background-color .7s;
@@ -430,4 +431,8 @@ a:active, a:focus, a:hover {
 
 .text-secondary {
     color: #ecb807!important
+}
+
+.meet-me{
+    /* padding: 0 30px; */
 }
